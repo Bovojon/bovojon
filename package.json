@@ -1,0 +1,19 @@
+{
+  "name": "bovojon",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bovojon/bovojon.git"
+  },
+  "author": "Jon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bovojon/bovojon/issues"
+  },
+  "homepage": "https://github.com/Bovojon/bovojon#readme"
+}
