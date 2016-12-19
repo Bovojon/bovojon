@@ -9,6 +9,8 @@
   configFunction.$inject = ['$stateProvider', '$urlRouterProvider'];
   function configFunction($stateProvider, $urlRouterProvider){
 
+    $urlRouterProvider.otherwise('/');
+
     $stateProvider
       .state('about', {
         url: '/',
