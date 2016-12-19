@@ -61,3 +61,8 @@ h5 {
 .w3-container {
   padding-bottom: 20px;
 }
+
+#div {
+  -vendor-animation-duration: 20s;
+  -vendor-animation-delay: 2s;
+}
