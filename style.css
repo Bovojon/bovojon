@@ -7,6 +7,10 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+h5 {
+  text-transform:none !important;
+}
+
 p {
   font-size: 15px;
 }
