@@ -70,3 +70,8 @@ h5 {
   -vendor-animation-duration: 20s;
   -vendor-animation-delay: 2s;
 }
+
+.skill-p {
+  margin-bottom: 1px !important;
+  margin-top: 5px !important;
+}
