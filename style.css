@@ -75,3 +75,15 @@ h5 {
   margin-bottom: 1px !important;
   margin-top: 5px !important;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.shan {
+    width: 120px;
+    height: 120px;
+    height: auto;
+    float: left;
+}
