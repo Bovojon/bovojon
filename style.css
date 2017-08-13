@@ -44,7 +44,7 @@ h5 {
   height: 19px;
   line-height: 19.4286px;
   margin: 0px;
-  text-align: center;
+  text-align: center !important;
 }
 
 .city_volunteer {
