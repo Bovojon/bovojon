@@ -3,79 +3,111 @@
 
   <div class="w3-container">
     <div class="col-md-3">
-      <h5>Earlham College</h5>
-      <p class="city">Richmond, IN</p>
+      <h5><img src="http://www.lesson.ly/wp-content/uploads/2015/01/Lessonly-logo.png" alt="Lessonly" style="margin:15px 0px"></h5>
+      <p class="city">Indianapolis, IN</p>
     </div>
     <div class="col-md-9">
-      <h5 class="w3-opacity"><b>Student Web Developer, Marketing and Communications</b></h5>
-      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2016 - <span class="w3-tag w3-teal w3-round current">Present</span></h6>
+      <h5 class="w3-opacity"><b>Software Engineering Intern</b></h5>
+      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May - August 2017</h6>
 
-      <p>I help design and build sections of the main <a href="http://www.earlham.edu/">Earlham Website</a>, as well as document the existing code. I also build web applications that are mostly for use by Earlham students and faculty, or that will fulfill the needs of certain departments of the college.</p>
-      <p>One of the biggest projects I undertook involved building a single-page web application for providing information on hosting events on Earlham College venues. The application facilitated the submission of requests to the Events And Operations department.<p/>
-      <p>I used Angular.js, Node.js and Express.js to build the web app and implemented project tracking and version control for the project. The final design of the application can be viewed at the following link: <a href="https://bovojon.github.io/Interactive-form/#/" target="_blank">https://bovojon.github.io/Interactive-form/#/</a></p>
-      <p>While working mainly on the project described above, I also helped support Earlham's public website which is built on Umbraco. Umbraco is a content management system (CMS) that runs on .Net, C#, Razor, and MSSQL.</p>
+      <p>I was a backend Ruby on Rails engineer but also did some work on the frontend with React. Below are some of the projects and stories I worked on:</p>
+      <ul>
+        <li>Lessonly API v2</li>
+        <div class="well well-sm" style="background-color: #ddffdd!important; padding:10px !important;">
+          <p>Took an API First Development approach to build the 2nd version of the Lessonly API using GraphQL.</p>
+        </div>
+        <li>Bulk User Importing</li>
+        <div class="well well-sm" style="background-color: #ddffdd!important; padding:10px !important;">
+          <p> Fixed issues with uploading user CSV files in bulk due to hidden BOMs (byte order marks) and extra columns in the files. Also implemented automatic statistical calculations of data for groups of users after a bulk user import.</p>
+        </div>
+        <li>Web Security</li>
+        <div class="well well-sm" style="background-color: #ddffdd!important; padding:10px !important;">
+          <p> Used Pundit Policy Scopes to prevent references to internal implementation objects in the Lessonly database from being exposed to users without validation mechanisms, thereby preventing IDOR (Insecure Direct Object Reference) attacks. <br><br> Fixed a bug that let users’ password reset codes be leaked to third-party sites through the referer header, thereby preventing possibilities for account takeovers.</p>
+        </div>
+        <li>Chrome Extension and Web Widget</li>
+        <div class="well well-sm" style="background-color: #ddffdd!important; padding:10px !important;">
+          <p>Improved the functionality of an endpoint to discern between lessons and resources in the database. <br><br> Fixed a bug that resulted from passing nil values as parameters to the endpoints.</p>
+        </div>
+        <li>Exporting User Reports</li>
+        <div class="well well-sm" style="background-color: #ddffdd!important; padding:10px !important;">
+          <p>Added an additional option to the existing feature to let users export reports with custom user field values. <br><br> Fixed issues with exporting reports that contained empty columns and data fields with special characters.</p>
+        </div>
+        <li>Default Landing Page Options</li>
+        <div class="well well-sm" style="background-color: #ddffdd!important; padding:10px !important;">
+          <p>Built a setting in ActiveAdmin to let administrative users choose the default landing page for their learners depending on certain conditions that they specify in the application.</p>
+        </div>
+        <li>Integration of Third-Party Learning Frameworks into the Lessonly app</li>
+        <div class="well well-sm" style="background-color: #ddffdd!important; padding:10px !important;">
+          <p>Worked on this bigger project as part of a team to let users upload content to Lessonly from other e-learning software products.</p>
+        </div>
+        <li>Lessons and Courses Organization</li>
+        <div class="well well-sm" style="background-color: #ddffdd!important; padding:10px !important;">
+          <p>Worked on this bigger project as part of another team to build complex algorithms to let administrative users organize their lessons and courses effectively for their learners.</p>
+        </div>
+      </ul>
+
     </div>
   </div>
   <hr>
 
   <div class="w3-container">
     <div class="col-md-3">
-      <h5>Xtern BootCamp</h5>
+      <h5><img src="http://cdnak1.psbin.com/b2x03yhns5lpjoaz/images/setup/footer_logo_1.png" alt="Earlham College" style="margin:15px 0px"></h5>
+      <h5 style="text-align: center; margin:5px 0px">Marketing and Communications</h5>
+      <p class="city">Richmond, IN</p>
+    </div>
+    <div class="col-md-9">
+      <h5 class="w3-opacity"><b>Student Web Developer</b></h5>
+      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2016 - <span class="w3-tag w3-teal w3-round current">Present</span></h6>
+      <p>I help design and build sections of Earlham's Website using Umbraco (a CMS that runs on .Net, C#, Razor, and MSSQL). I also use other web frameworks (Rails and MEAN stack) to build internal web applications used by Earlham students and faculty.</p>
+      <p>One of the biggest projects I undertook involved building a single-page web application for providing information on hosting events on Earlham College venues. The application facilitated the submission of requests to the Events And Operations department and I built it using AngularJs, NodeJs and Express. I also implemented project tracking and version control for the project. The final design of the application can be viewed <a href="https://bovojon.github.io/Interactive-form/#/" target="_blank">here</a>.</p>
+    </div>
+  </div>
+  <hr>
+
+  <div class="w3-container">
+    <div class="col-md-3">
+      <h5><img src="http://bootcamp16.getfretless.com/images/xtbc.png" alt="Xtern BootCamp" style="margin:15px 0px"></h5>
       <p class="city">Indianapolis, IN</p>
     </div>
     <div class="col-md-9">
       <h5 class="w3-opacity"><b>Student</b></h5>
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May - Aug 2016</h6>
-      <p> Xtern BootCamp,  powered by TechPoint, is an intensive 10-week training program focused on software development, during which I was trained to build single-page web applications using the MEAN (MongoDB, Express.js, Angular, and Node.js) software stack. When comparing the amount of time it took to build the front end of a full-stack note-taking web application with plain vanilla JavaScript at first, and then jQuery and later AngularJS, it was fascinating to see how much of the work AngularJS managed behind the scenes, and how much time and lines of code were saved! It was then that I realized how powerful the model–view–controller (MVC) design pattern really was.</p>
-      <p>During the BootCamp, we also had two 8-hour days of rigorous Scrum software development training. Scrum is an incremental Agile software development framework for managing product development. Towards the end, we applied what we had learnt by putting our knowledge of Scrum to the test and building layouts of towns using legos while under workplace conditions with deadlines to meet. As a team we created our sprint backlogs and met our priorities in our 'daily' scrum meetings. While formulating our sprint backlogs I realized how important and effective version control systems (such as git) were in distributing work and then merging each team member's work to form the final product at the end.</p>
-      <p> While building full-stack applications, I also worked with RESTful APIs, JSON objects, Ruby on Rails and PostgreSQL. All of my projects that I built during this BootCamp can be found on my <a href="https://github.com/Bovojon" target="_blank">github page</a>.</p>
+      <p> <a href="http://bootcamp16.getfretless.com/" target="_blank">Xtern BootCamp</a>, powered by <a href="http://techpoint.org/" target="_blank">TechPoint</a>, is an intensive 10-week training program focused on software development. </p>
+      <p> I learnt to build single-page web applications using the MEAN (MongoDB, Express.js, Angular, and Node.js) stack and also underwent Scrum software development training.</p>
+      <p> All of the material taught in BootCamp can be found <a href="http://bootcamp16.getfretless.com/" target="_blank">here</a>.</p>
     </div>
   </div>
   <hr>
 
   <div class="w3-container">
     <div class="col-md-3">
-      <h5>Earlham College</h5>
+      <h5><img src="http://cdnak1.psbin.com/b2x03yhns5lpjoaz/images/setup/footer_logo_1.png" alt="Earlham College" style="margin:15px 0px"></h5>
+      <h5 style="text-align: center; margin:5px 0px">WebDev</h5>
       <p class="city">Richmond, IN</p>
     </div>
     <div class="col-md-9">
-      <h5 class="w3-opacity"><b>Student Web Developer, WebDev</b></h5>
+      <h5 class="w3-opacity"><b>Student Web Developer</b></h5>
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Sept 2015 - May 2016</h6>
-      <p> The CS department at Earlham College organizes a number of applied CS groups and WebDev is one of them. The primary aim of the groups is to give students opportunities to apply and extend knowledge gained in the classroom to "real world" software and hardware projects. The WebDev team’s primary responsibilities are the development and maintenance of the department's online presence. </p>
-      <p> This experience was the first time I was working with other developers. As part of the team, I was involved in maintaining the web layout, structure, and look of the website of the Earlham CS department. We met once weekly and discussed problems, solutions, and new software/languages that might be helpful in improving the layout and/or functionaity of the site. I learnt to work with Wordpress and also learnt about building dynamic and responsive websites using PHP and Bootstrap.</p>
-      <p> One of the biggest projects I worked on while working for WebDev was the webpage for the Undergraduate Research Poster Conference (URPC) event. The aim was to facilitate the online submission and organization of research abstracts. I designed and built the main home page and the form. </p>
-      <p> Here is a link to the site: <a href="https://www.cs.earlham.edu/poster/" target="_blank">https://www.cs.earlham.edu/poster/</a> </p>
+      <p> The CS department at Earlham College organizes a number of applied CS groups and <a href="https://epress.earlham.edu/webdev/" target="_blank">WebDev</a> is one of them. The primary aim of the groups is to give students opportunities to apply and extend knowledge gained in the classroom to "real world" software and hardware projects. The WebDev team’s primary responsibilities are the development and maintenance of the department's online presence. </p>
+      <p> I was involved in maintaining the layout, structure, and look of Earlham's <a href="https://cs.earlham.edu/" target="_blank">Computer Science department's website</a>. We met once weekly and discussed problems, solutions, and new web frameworks that might be helpful in improving the layout and/or functionaity of the site. I  worked with Wordpress and built dynamic and responsive websites using PHP and Bootstrap.</p>
     </div>
   </div>
   <hr>
 
   <div class="w3-container">
     <div class="col-md-3">
-      <h5>Business East Service Sdn.Bhd</h5>
+      <h5 style="text-align: center; margin:15px 0px;">Business East Service Sdn.Bhd</h5>
       <p class="city">Kuala Lumpur, Malaysia</p>
     </div>
     <div class="col-md-9">
-      <h5 class="w3-opacity"><b>Sales Assistant</b></h5>
+      <h5 class="w3-opacity"><b>Web Development Intern</b></h5>
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> March 2012</h6>
       <p> I worked as a sales assistant at an IT shop, editing images and producing business cards and advertisement leaflets using the Adobe Photoshop and Illustrator. I also created company websites using HTML, CSS, JavaScript and jQuery. I am proud of this experience because it was the first time I was employed for my web development skills. </p>
       <p> Through this experience I developed the mind-set of learning through trial and error. I also learnt how to provide friendly customer service to diverse populations and developed the ability to express myself effectively. I believe this job gave me the opportunity to develop my communication and interpersonal skills as I greeted customers and responded to inquiry phone calls. </p></p>
     </div>
   </div>
   <hr>
-
-  <div class="w3-container">
-    <div class="col-md-3">
-      <h5>Boulevard Hotel</h5>
-      <p class="city">Kuala Lumpur, Malaysia</p>
-    </div>
-    <div class="col-md-9">
-      <h5 class="w3-opacity"><b>Summer Intern</b></h5>
-      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July - Aug 2010</h6>
-      <p>As a summer intern at the Boulevard Hotel MidValley, I worked 2-week shifts in each of the following departments: Housekeeping, Kitchen, and Sales and Marketing. I developed the ability to thrive in fast paced work environments with high pressures and learnt to interact with employees of different ranks and ages. </p>
-    </div>
-  </div>
-  <hr>
-
 
 
 </div>
