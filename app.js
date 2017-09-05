@@ -35,6 +35,10 @@
       .state('volunteer', {
         url: '/volunteer',
         templateUrl: 'views/volunteer.html'
+      })
+      .state('research', {
+        url: '/research',
+        templateUrl: 'views/research.html'
       });
 
   }
