@@ -100,3 +100,12 @@ img {
     height: auto;
     float: left;
 }
+
+.display-field {
+  display: inline-block;
+  padding-left: 50px;
+  text-indent: -50px;
+  vertical-align: top;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
