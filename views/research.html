@@ -7,6 +7,7 @@
       <li>Word2vec</li>
       <li>BlockChain Technology</li>
     </ul>
+    <p>The posts contain my annotations of the most current and relevant research papers as well as some information on experimentations that I will conduct to test ideas in the areas of reseach listed above.</p>
   </div>
 </div>
 
@@ -19,7 +20,7 @@
     <p>In introducing the main idea, the paper discusses the statistical models used in the Skip-gram model. Google’s Skip-gram model is used to learn high quality vector representations of words from large amounts of unstructured text data. Given a sequence of training words the model maximizes the average log probability. The authors use a Binary Huffman Tree data structure in the Hierarchical Softmax model to assign short codes to frequent words so that words can be grouped together by their frequency. An alternative to Hierarchical Softmax, called Negative Sampling is presented, which is a simplified version of the Noise Contrastive Estimation (NCE) that uses only samples of the noise distribution (whilst NCE uses both the samples and the numerical probabilities of the noise distribution). Another significant extension to the Skip-gram model in this research paper is the subsampling of frequent words, whereby the model learns to counter the balance of rare (e.g. “France”) and frequent (e.g. “the”, “a”) words. Additive compositionality is also explained to be used in the phrase skip-gram model.
     </p>
     <p>The empirical results of the word vector tasks show that Negative Sampling outperformed Hierarchical Softmax and the Noise Contrastive Estimation on the analogical reasoning task. Furthermore, the subsampling of the frequent words improved the training speed. The results of the Skip-gram model for phrases shows that the subsampling can result in faster training and can also improve accuracy in some cases. </p>
-    <p>From a critical perspective, the authors explain the conditions in their experiments well and also compare their results to results of other neural network based models of representing words. However, the authors are biased toward the Skip-gram model and one wonders how much the research is influenced by the objectives of Google. </p>
+    <p>From a critical perspective, the authors explain the conditions in their experiments well and also compare their results to results of other neural network based models of representing words. However, the authors are biased toward the Skip-gram model and it is interesting to ask how much this academic research is influenced by the objectives of Google. </p>
     <hr>
   </div>
 </div>
