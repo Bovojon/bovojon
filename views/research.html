@@ -14,7 +14,47 @@
       <li>BlockChain Technology</li>
       <p>I am curious to study how the BlockChain technology can be applied to the sharing economy by using the idea of the ledger to provide security and to assign a digital identifier to assets. The question I am hoping to answer is: How effective is a freelance marketplace that is built on top of blockchain-based peer-to-peer network?</p>
     </ul>
-    <p>The posts contain my annotations of the most current and relevant research papers as well as some information on experimentations that I conduct to test my ideas in those areas of reseach.</p>
+    <h4>The posts contain my annotations of the most current and relevant research papers as well as some information on experimentations that I conduct to test my ideas in those areas of reseach.</h4>
+  </div>
+</div>
+
+<div class="w3-container w3-card-2 w3-white w3-margin-bottom animated fadeIn">
+  <div class="w3-container" style="margin-top:10px">
+    <h3 style="text-align:center">October 7, 2017</h3>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 11 (NLU)</h4>
+    <p><span class="display-field">Popescu, Ana-Maria, et al. "Modern natural language interfaces to databases: Composing statistical parsing with semantic tractability." Proceedings of the 20th international conference on Computational Linguistics. Association for Computational Linguistics, 2004.</span></p>
+    <p> The authors of this research paper from the University of Washington report on how a strong semantic model coupled with “light re-training” enables PRECISE – a Natural Language Interfaces to Databases (NLI) system that uses a statistical parser as a “plug in” – to overcome parser errors and correctly map from parsed questions to the corresponding SQL queries. The authors provide an extensive set of definitions for some relevant terminologies in describing how PRECISE works. The also explain the theoretical underpinnings of PRECISE’s semantic model and show that PRECISE always answers questions from the class of Semantically Tractable (ST) questions correctly. Based on experimental results with the benchmark ATIS data set where PRECISE achieves 94% accuracy, the authors conclude that statistical parsers can support NLIs (Natural Language Interfaces to Databases) such as PRECISE.
+    </p>
+    <p>
+      The extensive set of definitions provided in this paper will be very useful as reference. Furthermore, I will base my work on the discussion of the algorithm used to parse natural language in this paper.
+    </p>
+    <hr>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 10 (NLU)</h4>
+    <p><span class="display-field">Kaufmann, Esther, Abraham Bernstein, and Renato Zumstein. "Querix: A natural language interface to query ontologies based on clarification dialogs." 5th International Semantic Web Conference (ISWC 2006). Springer, 2006.</span></p>
+    <p> In this paper, researchers from the University of Zurich tackle the issue of ambiguity in natural language when building natural language interfaces for the Semantic Web. The authors present Querix, a domain-independent natural language interface (NLI) for the Semantic Web that uses clarification dialogs to query ontologies, instead of trying to resolve natural language (NL) ambiguities. The system consists of seven main parts: a user interface, an ontology manager, a query analyzer, a matching center, a query generator, a dialog component, and an ontology access layer. The main point of discussion of the paper is the matching center. The authors discuss the test results of their prototype and explain that because Querix does not exploit sophisticated logic-based or semantic techniques as typical full-fledged NLP systems do, some queries provided by the data set could not be answered.
+    </p>
+    <p>
+      Although the authors use SPARQL as their database, I will be able to apply the main idea presented in this paper – consulting the user through a dialog component by displaying a menu from which the user can choose the intended meaning – to SQL databases. The meanings displayed will be based on the process of matching the query skeleton with the synonym enhanced triples in the ontology.
+    </p>
+    <hr>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 9 (NLU)</h4>
+    <p><span class="display-field">Etzioni, Oren, et al. "Web-scale information extraction in knowitall:(preliminary results)." Proceedings of the 13th international conference on World Wide Web. ACM, 2004.</span></p>
+    <p> The researchers from the University of Washington introduce KNOWITALL, a domain-independent system that extracts large collections of facts from the web in an automated, open-ended, and scalable manner, and evaluates the facts using statistics computed by treating the web as a large corpus of text. Based on the evaluation, KNOWITALL then associates a probability with every fact, enabling the system to automatically trade recall for precision. The authors describe preliminary experiments in which an instance of KNOWITALL ran for four days on a single machine and extracted over 50,000 facts regarding cities, states, countries, actors, and films. KNOWITALL relies on a domain-independent and language-independent architecture to populate the ontology with specific facts and relations. The four modules of the system include the (i) Extractor (ii) Search Engine Interface (iii) Assessor (iv) Database. Each module runs as a thread and communication between modules is accomplished by asynchronous message passing. The authors analyze the extraction rate and the precision/recall that was achieved from the run.
+    </p>
+    <p>
+      This paper has been cited over 880 times and will be an important source of reference to use in my project. The techniques of Natural Language Processing used in KNOWITALL’s extractor will be especially relevant in my research. Whenever a new class or relation is added to KNOWITALL’s ontology, the extractor uses generic, domain-independent rule templates to create a set of information extraction rules for that class or relation. Some of the rule templates used in the extractor are adapted from Marti Hearst’s hyponym patterns. The extractor can also utilize rules for binary or n-ary relations.
+    </p>
+    <hr>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 8 (NLU)</h4>
+    <p><span class="display-field">Pantel, Patrick, and Marco Pennacchiotti. "Espresso: Leveraging generic patterns for automatically harvesting semantic relations." Proceedings of the 21st International Conference on Computational Linguistics and the 44th annual meeting of the Association for Computational Linguistics. Association for Computational Linguistics, 2006.</span></p>
+    <p> Researchers from the University of Southern California and University of Rome present <i>Espresso</i>, a weakly-supervised and general-purpose algorithm for harvesting semantic relations. They introduce other harvesting algorithms and then outline four required properties of an ideal relation harvesting algorithm including performance, minimal supervision, breadth and generality. The authors then explain Expresso’s functionality and how it fulfills the required properties. Expresso uses a    pattern-based approach – broad coverage noisy patterns to exploit generic patterns – to harvest relations. The other approach is cluster-based which involves grouping words according to their meanings in text, labeling the clusters using their members’ lexical or syntactic dependencies, and then extract an <i>s-a</i> relation between each cluster member and the cluster label. The authors explain their Expresso algorithm which iterates between pattern induction, pattern ranking and instance extraction. They also present an empirical comparison of Espresso with three state-of-the-art systems on the task of extracting various semantic relations.
+    </p>
+    <p>The algorithm used in this paper will be useful in implementing a similar method of extracting correct part-of relations. </p>
+    <hr>
   </div>
 </div>
 
