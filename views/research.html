@@ -11,9 +11,10 @@
       </p>
       <li>Word2vec</li>
       <p>I am interested in researching how machine learning can be used to improve search results for a search engine. There are a number of research papers that are produced on this field by Google and they are all available online. While exploring this area of research, I discovered Google’s RankBrain, which is a Machine Learning system to embed vast amounts of natural language into mathematical vectors that the computer can understand. This led me to learning about word vectors and the tool that Google produced, called word2vec. My research will involve studying and comparing the continuous bag-of-words and skip-gram models. The word2vec tool will provide an efficient implementation of the continuous bag-of-words and skip-gram architectures for computing vector representations of words.</p>
-      <li>BlockChain Technology</li>
-      <p>I am curious to study how the BlockChain technology can be applied to the sharing economy by using the idea of the ledger to provide security and to assign a digital identifier to assets. The question I am hoping to answer is: How effective is a freelance marketplace that is built on top of blockchain-based peer-to-peer network?</p>
+      <li>Applications of BlockChain Technology</li>
+      <p>I am curious to study how the BlockChain technology can be applied to various aspects of life, particulary the sharing economy by using the idea of the ledger to provide security and to assign a digital identifier to assets. The question I am hoping to answer is: How effective is a freelance marketplace that is built on top of blockchain-based peer-to-peer network?</p>
     </ul>
+    <br>
     <h4>The posts contain my annotations of the most current and relevant research papers as well as some information on experimentations that I conduct to test my ideas in those areas of reseach.</h4>
   </div>
 </div>
@@ -22,25 +23,25 @@
   <div class="w3-container" style="margin-top:10px">
     <h3 style="text-align:center">October 7, 2017</h3>
 
-    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 11 (NLU)</h4>
+    <h4 class="w3-text-teal">Annotation 22 (NLU)</h4>
     <p><span class="display-field">Popescu, Ana-Maria, et al. "Modern natural language interfaces to databases: Composing statistical parsing with semantic tractability." Proceedings of the 20th international conference on Computational Linguistics. Association for Computational Linguistics, 2004.</span></p>
-    <p> The authors of this research paper from the University of Washington report on how a strong semantic model coupled with “light re-training” enables PRECISE – a Natural Language Interfaces to Databases (NLI) system that uses a statistical parser as a “plug in” – to overcome parser errors and correctly map from parsed questions to the corresponding SQL queries. The authors provide an extensive set of definitions for some relevant terminologies in describing how PRECISE works. The also explain the theoretical underpinnings of PRECISE’s semantic model and show that PRECISE always answers questions from the class of Semantically Tractable (ST) questions correctly. Based on experimental results with the benchmark ATIS data set where PRECISE achieves 94% accuracy, the authors conclude that statistical parsers can support NLIs (Natural Language Interfaces to Databases) such as PRECISE.
+    <p> The authors of this research paper from the University of Washington report on how a strong semantic model coupled with “light re-training” enables PRECISE – a Natural Language Interfaces to Databases (NLI) system that uses a statistical parser as a “plug in” – to overcome parser errors and correctly map from parsed questions to the corresponding SQL queries. The authors provide an extensive set of definitions for some relevant terminologies in describing how PRECISE works. They also explain the theoretical underpinnings of PRECISE’s semantic model and show that PRECISE always answers questions from the class of Semantically Tractable (ST) questions correctly. Based on experimental results with the benchmark ATIS data set where PRECISE achieves 94% accuracy, the authors conclude that statistical parsers can support NLIs (Natural Language Interfaces to Databases) such as PRECISE.
     </p>
     <p>
-      The extensive set of definitions provided in this paper will be very useful as reference. Furthermore, I will base my work on the discussion of the algorithm used to parse natural language in this paper.
+      The extensive set of definitions provided in this paper will be very useful as reference. Furthermore, I will base my work on the discussion of the algorithm used to parse natural language.
     </p>
     <hr>
 
-    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 10 (NLU)</h4>
+    <h4 class="w3-text-teal">Annotation 21 (NLU)</h4>
     <p><span class="display-field">Kaufmann, Esther, Abraham Bernstein, and Renato Zumstein. "Querix: A natural language interface to query ontologies based on clarification dialogs." 5th International Semantic Web Conference (ISWC 2006). Springer, 2006.</span></p>
-    <p> In this paper, researchers from the University of Zurich tackle the issue of ambiguity in natural language when building natural language interfaces for the Semantic Web. The authors present Querix, a domain-independent natural language interface (NLI) for the Semantic Web that uses clarification dialogs to query ontologies, instead of trying to resolve natural language (NL) ambiguities. The system consists of seven main parts: a user interface, an ontology manager, a query analyzer, a matching center, a query generator, a dialog component, and an ontology access layer. The main point of discussion of the paper is the matching center. The authors discuss the test results of their prototype and explain that because Querix does not exploit sophisticated logic-based or semantic techniques as typical full-fledged NLP systems do, some queries provided by the data set could not be answered.
+    <p> In this paper, researchers from the University of Zurich tackle the issue of ambiguity in natural language when building natural language interfaces for the Semantic Web. The authors present Querix, a domain-independent natural language interface (NLI) for the Semantic Web that uses clarification dialogs to query ontologies, instead of trying to resolve natural language (NL) ambiguities. The system consists of seven main parts: a user interface, an ontology manager, a query analyzer, a matching center, a query generator, a dialog component, and an ontology access layer. However, the main point of discussion of the paper is the matching center. The authors discuss the test results of their prototype and explain that because Querix does not exploit sophisticated logic-based or semantic techniques as typical full-fledged NLP systems do, some queries provided by the data set could not be answered.
     </p>
     <p>
       Although the authors use SPARQL as their database, I will be able to apply the main idea presented in this paper – consulting the user through a dialog component by displaying a menu from which the user can choose the intended meaning – to SQL databases. The meanings displayed will be based on the process of matching the query skeleton with the synonym enhanced triples in the ontology.
     </p>
     <hr>
 
-    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 9 (NLU)</h4>
+    <h4 class="w3-text-teal">Annotation 20 (NLU)</h4>
     <p><span class="display-field">Etzioni, Oren, et al. "Web-scale information extraction in knowitall:(preliminary results)." Proceedings of the 13th international conference on World Wide Web. ACM, 2004.</span></p>
     <p> The researchers from the University of Washington introduce KNOWITALL, a domain-independent system that extracts large collections of facts from the web in an automated, open-ended, and scalable manner, and evaluates the facts using statistics computed by treating the web as a large corpus of text. Based on the evaluation, KNOWITALL then associates a probability with every fact, enabling the system to automatically trade recall for precision. The authors describe preliminary experiments in which an instance of KNOWITALL ran for four days on a single machine and extracted over 50,000 facts regarding cities, states, countries, actors, and films. KNOWITALL relies on a domain-independent and language-independent architecture to populate the ontology with specific facts and relations. The four modules of the system include the (i) Extractor (ii) Search Engine Interface (iii) Assessor (iv) Database. Each module runs as a thread and communication between modules is accomplished by asynchronous message passing. The authors analyze the extraction rate and the precision/recall that was achieved from the run.
     </p>
@@ -49,7 +50,7 @@
     </p>
     <hr>
 
-    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 8 (NLU)</h4>
+    <h4 class="w3-text-teal">Annotation 19 (NLU)</h4>
     <p><span class="display-field">Pantel, Patrick, and Marco Pennacchiotti. "Espresso: Leveraging generic patterns for automatically harvesting semantic relations." Proceedings of the 21st International Conference on Computational Linguistics and the 44th annual meeting of the Association for Computational Linguistics. Association for Computational Linguistics, 2006.</span></p>
     <p> Researchers from the University of Southern California and University of Rome present <i>Espresso</i>, a weakly-supervised and general-purpose algorithm for harvesting semantic relations. They introduce other harvesting algorithms and then outline four required properties of an ideal relation harvesting algorithm including performance, minimal supervision, breadth and generality. The authors then explain Expresso’s functionality and how it fulfills the required properties. Expresso uses a    pattern-based approach – broad coverage noisy patterns to exploit generic patterns – to harvest relations. The other approach is cluster-based which involves grouping words according to their meanings in text, labeling the clusters using their members’ lexical or syntactic dependencies, and then extract an <i>s-a</i> relation between each cluster member and the cluster label. The authors explain their Expresso algorithm which iterates between pattern induction, pattern ranking and instance extraction. They also present an empirical comparison of Espresso with three state-of-the-art systems on the task of extracting various semantic relations.
     </p>
@@ -61,12 +62,25 @@
 <div class="w3-container w3-card-2 w3-white w3-margin-bottom animated fadeIn">
   <div class="w3-container" style="margin-top:10px">
     <h3 style="text-align:center">October 5, 2017</h3>
-    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 7 (NLU)</h4>
+    <h4 class="w3-text-teal">Annotation 18 (NLU)</h4>
     <p><span class="display-field">Suchanek, Fabian M., Georgiana Ifrim, and Gerhard Weikum. "Combining linguistic and statistical analysis to extract relations from web documents." Proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2006.</span></p>
     <p> This paper demonstrates how deep linguistic structures can be used in extracting information from the World Wide Web. The authors – researchers from the Max-Planck-Institute for Computer Science in Saarbrücken, Germany – present their Information Extraction approach that focuses on binary and arbitrary relations and compare it to other related work done on corpus-based systems. </p>
     <p>The authors explain why they chose to use the Link Grammar Parser as their approach for parsing natural language sentences and provide a brief description of how it works. The algorithm discussed in the paper decides which categories a pair of words from a corpus of a sequence of natural language sentences falls into. The sentences are parsed, producing a deep grammatical structure for each of them. The algorithm has three phases: (i) Discovery Phase in which it seeks linkages (ii) Training Phase in which statistical learning is applied to learn the concept of positive patterns (iii) Testing Phase in which it generates all possible patterns by replacing two words by placeholders for each linkage. </p>
     <p>The authors then discuss their hypothesis that whenever an example pair appears in a sentence, the linkage and the corresponding pattern express the target relation. They also discuss how patterns can be represented and generalized using machine learning. The approach discussed in the paper is implemented in a system called Leila (Learning to Extract Information by Linguistic Analysis) and is run on different corpora and tested on different target relations. </p>
     <p>This paper will be very useful in comparing the use of deep linguistic structures and the use of shallow text patterns in pattern matching for Information Extraction. The paper can also be used to discuss the idea of linkages which allow for more sophisticated ways of resolving anaphoras.</p>
+
+    <h4 class="w3-text-teal">Annotation 17 (Blockchain)</h4>
+    <p><span class="display-field">Bahga, Arshdeep, and Vijay K. Madisetti. "Blockchain platform for industrial Internet of Things." J. Softw. Eng. Appl 9.10 (2016): 533.</span></p>
+    <p>Researchers from Georgia Institute of Technology propose a decentralized, peer-to-peer platform called BPIIoT for Industrial Internet of Things based on the blockchain technology, which enables peers in a decentralized, trustless, peer-to-peer network to interact with each other without the need for a trusted intermediary. They describe an implementation case study of the proposed BPIIoT platform based on Beaglebone Black single-board computer, interface-board based on Arduino Uno and the Ethereum blockchain network. Their future work will focus on implementation and demonstration of the BPIIoT platform for more realistic solutions such as on-demand manufacturing and device self-service.</p>
+    <p>I will use this paper to discuss the benefits of using the blockchain technology for Industrial Internet of Things, where machines have their own blockchain accounts and the users are able to provision and transact with the machines directly to avail manufacturing services. </p>
+
+    <h4 class="w3-text-teal">Annotation 16 (Blockchain)</h4>
+    <p><span class="display-field">Mainelli, Michael, and Mike Smith. "Sharing ledgers for sharing economies: an exploration of mutual distributed ledgers (aka blockchain technology)." The Journal of Financial Perspectives 3.3 (2015): 38-69.</span></p>
+    <p>This article was published in The Journal of Financial Perspectives: FinTech. The authors, from Z/Yen Group Limited, provide a general introductory description of blockchain technology and then discuss the InterChainZ project which was a consortium research project to share learning on MDLs during the summer of 2015 – the study found that InterChainZ showcased several distributed ledger configurations and numerous variants, exploring how they might work in a set of agreed “use cases”. I will use this paper to introduce and explain the terminology in blockchain technology.</p>
+
+    <h4 class="w3-text-teal" style="margin:30px auto;">Annotation 15 (Blockchain)</h4>
+    <p><span class="display-field">Androulaki, Elli, et al. "Evaluating user privacy in bitcoin." International Conference on Financial Cryptography and Data Security. Springer, Berlin, Heidelberg, 2013.</span></p>
+    <p>The authors of this paper investigate the privacy guarantees of Bitcoin in the setting where Bitcoin is used as a primary currency for the daily transactions of individuals. They evaluate the privacy that is provided by Bitcoin (i) by analyzing the genuine Bitcoin system and (ii) through a simulator that faithfully mimics the operation of Bitcoin in the context where Bitcoin is used for all transactions within a university. They then discuss their results which show that the profiles of almost 40% of the users can be, to a large extent, recovered even when users adopt privacy measures recommended by Bitcoin. This paper is the first work that comprehensively analyzes, and evaluates the privacy implications of Bitcoin. The authors also discuss their design and implementation of the first simulator of Bitcoin which can be used to model the interaction between Bitcoin users in generic settings. I will use this paper to discuss the privacy concerns concerning Bitcoin.</p>
     <hr>
   </div>
 </div>
@@ -74,7 +88,7 @@
 <div class="w3-container w3-card-2 w3-white w3-margin-bottom animated fadeIn">
   <div class="w3-container" style="margin-top:10px">
     <h3 style="text-align:center">October 4, 2017</h3>
-    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 6 (NLU)</h4>
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 14 (NLU)</h4>
     <p><span class="display-field">Suchanek, Fabian M., Gjergji Kasneci, and Gerhard Weikum. "Yago: A large ontology from wikipedia and wordnet." Web Semantics: Science, Services and Agents on the World Wide Web 6.3 (2008): 203-217.</span></p>
     <p> The authors of this academic article – who are from the Max-Planck-Institute for Computer Science in Saarbrücken, Germany – present YAGO, an ontology that is automatically derived from Wikipedia and WordNet. The authors begin by introducing YAGO which extends the data model of RDFS (Resource Description Framework Schema) to represent n-ary relations. They then discuss the YAGO model and the sources used to build it (Wikipedia and WordNet). The article also contains a section that
         describes how the information is extracted and it ends with the authors’ evaluation of the precision and size of YAGO, where they evaluate their use of type checking to enforce the high accuracy of the extraction heuristics and improve the precision of YAGO.
@@ -82,6 +96,22 @@
     <p>
       Given the two main components of building an ontology are (i) extracting the information (ii) building the data model, this article will be very useful in the latter process. The information is extracted using Wikipedia’s infoboxes and category pages, in lieu of using natural language processing on the articles. However, the article does point to other academic resources that use pattern matching and natural language parsing to extract information. Hence, the ideas discussed in this article that relate to building the data models – that express entities, facts, relations between facts and properties of relations – will be most useful.
     </p>
+
+    <h4 class="w3-text-teal" style="margin:30px auto;">Annotation 13 (Blockchain)</h4>
+    <p><span class="display-field">Cohen, Lewis Rinaudo, Lee Samuelson, and Hali Katz. "How Securitization Can Benefit from Blockchain Technology." The Journal of Structured Finance 23.2 (2017): 51-54.</span></p>
+    <p>The authors of this article address the potential benefits of blockchain when applied throughout the securitization process: from reduction in cost, time, and fraud risk to increases in certainty, trust, and accuracy. The authors explain that by providing a high level of data security, blockchain can also lower the due diligence burden and remove regulatory inefficiencies from the securitization process. Through the elimination of certain third-party intermediaries, blockchain can lower costs and save time. </p>
+    <p>This paper will be used to discuss how the use of smart contracts can help to consolidate and standardize complicated pooling and servicing agreements and track a servicer’s collection activity.</p>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 12 (Blockchain)</h4>
+    <p><span class="display-field">Christidis, Konstantinos, and Michael Devetsikiotis. "Blockchains and smart contracts for the internet of things." IEEE Access 4 (2016): 2292-2303.</span></p>
+    <p>This paper examines the application of blockchain technology in the Internet of Things (IoT) sector. Blockchains allow to have a distributed peer-to-peer network where non-trusting members can interact with each other without a trusted intermediary, in a verifiable manner. The authors of this paper review how this mechanism works and also look into smart contracts-scripts that reside on the blockchain that allow for the automation of multi-step processes. They then describe how a blockchain-IoT combination: (1) facilitates the sharing of services and resources leading to the creation of a marketplace of services between devices (2) allows us to automate in a cryptographically verifiable manner several existing, time-consuming workflows. The authors conclude that the blockchain-IoT combination is powerful and can cause significant transformations across several industries, paving the way for new business models and novel, distributed applications.</p>
+    <p>This paper will be a great resource to point out certain issues that should be considered before the deployment of a blockchain network in an IoT setting: from transactional privacy to the expected value of the digitized assets traded on the network. </p>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 11 (Blockchain)</h4>
+    <p><span class="display-field">Nakamoto, Satoshi. "Bitcoin: A peer-to-peer electronic cash system, 2008." (2012): 1-9.</span></p>
+    <p>The authors of this paper present Bitcoin, a peer-to-peer network which is a solution to the double-spending problem. Bitcoin works by timestamping transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination and can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. </p>
+    <p>This paper will be used to introduce the double-spending problem and to discuss Bitcoin, which is one of the most popular peer-to-peer networks currently.</p>
+
     <hr>
   </div>
 </div>
@@ -89,7 +119,7 @@
 <div class="w3-container w3-card-2 w3-white w3-margin-bottom animated fadeIn">
   <div class="w3-container" style="margin-top:10px">
     <h3 style="text-align:center">October 3, 2017</h3>
-    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 5 (NLU)</h4>
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 10 (NLU)</h4>
     <p><span class="display-field">Mahesh, Kavi, and Sergei Nirenburg. Knowledge-based systems for natural language processing. New Mexico State University, Computing Research Laboratory, 1996.</span></p>
     <p> This academic article from <i>The Computer Science and Engineering Handbook</i> provides reviews of the underlying principles and methodological issues in developing knowledge-based methods for natural language processing. The authors, Kavi Mahesh from the Indian Institute of Information Technology and Sergei Nirenburg from Rensselaer Polytechnic Institute, present some examples of knowledge-based ambiguity resolution methods on selectional constraints by using grammatical knowledge or statistical knowledge. They describe the underlying principles of a Knowledge-Based Natural Language Prpcessing System (KB-NLP) and how knowledge such as that contained in selectional constraints aids NLP. They then analyze the representation and application of knowledge in KB-NLP before discussing the issues with those approaches as well as the methodological issues involved in the acquisition of both world knowledge (ontology) and lexical knowledge. A further discussion on the research issues in knowledge representation and acquisition for NLP is included towards the end. The authors present two trends (multi-engine and human assisted systems) that were used at the time of this publication in order to provide a KB-NLP with the required knowledge. The authors also devote a whole section of the article to illustrate and describe solutions to some of the well-known problems in NLP such as syntactic and word sense ambiguities.
     </p>
@@ -103,7 +133,7 @@
 <div class="w3-container w3-card-2 w3-white w3-margin-bottom animated fadeIn">
   <div class="w3-container" style="margin-top:10px">
     <h3 style="text-align:center">October 1, 2017</h3>
-    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 4 (NLP)</h4>
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 9 (NLP)</h4>
     <p><span class="display-field">Bird, Steven. "NLTK: the natural language toolkit." Proceedings of the COLING/ACL on Interactive presentation sessions. Association for Computational Linguistics, 2006.</span></p>
     <p>In this short paper, Steven Bird from the Department of Computer Science and Software Engineering at University
        of Melbourne, introduces the NLTK (Natural Language Toolkit) and explains how it is used in teaching NLP.
@@ -111,6 +141,26 @@
        together with animated algorithms, tutorials, and problem sets. Bird demonstrates how to perform simple processing
        tasks with the NLTK including tokenization and stemming, tagging, and chunking and parsing.</p>
     <p>This paper serves as a very useful tutorial about the NLTK. The NLTK will be imperative in conducting research and testing hypotheses in Natural Language Processing.</p>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 8 (Blockchain)</h4>
+    <p><span class="display-field">Broby, Daniel, and Greig Paul. "The financial auditing of distributed ledgers, blockchain and cryptocurrencies." Journal of Financial Transformation 46 (2017).</span></p>
+    <p>The authors of this paper, from the University of Strathclyde, Glasgow, critically assess the way that financial audits are currently audited when stored in distributed ledgers, transmitted via a blockchain or whose value is stored in crypto rather than sovereign currency form. They identify the self-verifying nature of such financial data – which negates the need for traditional audit methods – and highlight the many weaknesses that still exist in the blockchain and how these presents issues for verification. The authors also address distributed transaction and custody records and how these present auditing challenges. They propose a protocol to audit the movement of blockchain transmitted funds in order to make them more robust going forward.</p>
+    <p>I will use this paper to discuss the challenges of digital money transfer and storage. This paper will also be helpful in discussing how the distributed nature of blockchain assets, cryptocurrencies and online legers affect financial audit, and how smart contracts can be adapted to facilitate self-audit.</p>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 7 (Blockchain)</h4>
+    <p><span class="display-field">Gabl, Andreas, and Stephan Ulrich Krehl. Application of blockchain technology and crowdfunding to solve structural inefficiencies in digital rights and patents: a comparative analysis. Diss. Massachusetts Institute of Technology, 2017.</span></p>
+    <p>Researchers at MIT conduct a study into how the patents and digital rights systems (in particular in the music industry) can be better suited for disruption by blockchain technology and crowdfunding. They examine the structural inefficiencies of the two segments and explore how blockchain and crowdfunding could solve these. Based on academic literature and professional journals in the fields of patents, music, crowdfunding, and blockchain technology as well as self-conducted interviews with industry, legal, and technology experts, the authors find that while crowdfunding solves certain inefficiencies in the field of patents, blockchain technology has only limited impact.</p>
+    <p>This study can be used to discuss the extent to which the blockchain technology can improve the efficiency of the markets for patents and digital rights.</p>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 6 (Blockchain)</h4>
+    <p><span class="display-field">Warren, Will, and Amir Bandeali. "0x: An open protocol for decentralized exchange on the Ethereum blockchain." (2017).</span></p>
+    <p>This paper describes a protocol that facilitates low friction peer-to-peer exchange of ERC20 tokens – a standard that describes the functions and events that an Ethereum token contract has to implement – on the Ethereum blockchain. The protocol is intended to serve as an open standard and common building block, driving interoperability among decentralized applications that incorporate exchange functionality. Decentralized applications built on top of the protocol can access public liquidity pools or create their own liquidity pool and charge transaction fees on the resulting volume. The protocol is unopinionated: it does not impose costs on its users or arbitrarily extract value from one group of users to benefit another. Decentralized governance is used to continuously and securely integrate updates into the base protocol without disrupting decentralized applications or end users.</p>
+    <p>I will use this paper to discuss how a decentralized update mechanism allows improvements to be continuously and safely integrated into a protocol that facilitates low friction peer-to-peer exchange of ERC20 tokens on the Ethereum blockchain without disrupting decentralized applications or end users.</p>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 5 (Blockchain)</h4>
+    <p><span class="display-field">Tasca, Paolo, Thayabaran Thanabalasingham, and Claudio J. Tessone. "Ontology of Blockchain Technologies. Principles of Identification and Classification." (2017).</span></p>
+    <p>This comparative study across the most widely known blockchain technologies is conducted with a bottom-up approach. The authors of this paper disentangle blockchains into building blocks where each building block is then hierarchically classified in main and subcomponents. The alternative values for the subcomponents are then identified and compared between them. The authors also present an ontology matrix that summarizes the study and provides a navigation tool across different blockchain architectural configurations.</p>
+    <p>This paper will be used to discuss an example of a blockchain ontology: a reference architectural model for blockchains and their possible configurations. This blockchain ontology can then be used to assist in the exploration of design domains, in the implementation, deployment and performance measurement of different blockchain architectures.</p>
     <hr>
   </div>
 </div>
@@ -119,7 +169,7 @@
 <div class="w3-container w3-card-2 w3-white w3-margin-bottom animated fadeIn">
   <div class="w3-container" style="margin-top:10px">
     <h3 style="text-align:center">September 30, 2017</h3>
-    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 3 (NLU)</h4>
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 4 (NLU)</h4>
     <p><span class="display-field">Chaudhri, Vinay K., et al. "Three lessons for creating a knowledge base to enable explanation, reasoning and dialog." Proceedings of the Second Annual Conference on Advances in Cognitive Systems ACS. Vol. 187. 2013.</span></p>
     <p>The authors of this theoretical research paper discuss ways of systematically curating a knowledge base to enable reasoning, explanation and dialog. The three authors are researchers from the Artificial Intelligence Center, which is a laboratory in the Information and Computing Sciences Division of SRI International. The three techniques of knowledge engineering described in the paper are (1) re-formulating sentences as universal truths so that the surface form of knowledge is closer to the knowledge to be extracted (2) using a linguistically motivated ontology into which the knowledge is extracted (3) using a set of guidelines that define how various conceptual distinctions are expressed in natural language. The authors use those techniques to create a knowledge base that is later used to build an intelligent textbook that helps students learn better by answering questions, giving explanations, and engaging in dialog through natural language. In order to extract only the essential information from a body of knowledge, the paper introduces the axiom pattern known as universal truth which is a set of facts that are true for all instances of a concept. The paper explains the process of converting sentences to universal truths, then creating knowledge representation plans. A knowledge representation plan is a set of literals that appear in the consequent of the existence rule, where the rule’s antecedent has one variable that is universally quantified. The plans for a knowledge base are similar to design specification or a pseudo code for a program. Writing the plans first helps an encoder to think through the overall design of the representation before entering it into the knowledge base. The plans are then entered into the knowledge base using a graphical interface called concept maps. The authors then provide advantages of reformulating these sentences as universal truths.
     </p>
@@ -133,7 +183,7 @@
 <div class="w3-container w3-card-2 w3-white w3-margin-bottom animated fadeIn">
   <div class="w3-container" style="margin-top:10px">
     <h3 style="text-align:center">September 14, 2017</h3>
-    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 2 (Word2vec)</h4>
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 3 (Word2vec)</h4>
     <p><span class="display-field">Mikolov, Tomas, et al. "Distributed representations of words and phrases and their compositionality." Advances in neural information processing systems. 2013.</span></p>
     <p>Researchers at Google extend on the continuous Skip-gram model by using subsampling of frequent words from text data in order to improve the quality of the word vectors and the training speed. They also present a simplified variant of Noise Contrastive Estimation (NCE) that further improves the accuracy and speed of training. Part of the research seems to relate closely to thought vectors since it discusses extensions from word-based models to phrase-based models through a data-driven approach.</p>
     <p>In introducing the main idea, the paper discusses the statistical models used in the Skip-gram model. Google’s Skip-gram model is used to learn high quality vector representations of words from large amounts of unstructured text data. Given a sequence of training words the model maximizes the average log probability. The authors use a Binary Huffman Tree data structure in the Hierarchical Softmax model to assign short codes to frequent words so that words can be grouped together by their frequency. An alternative to Hierarchical Softmax, called Negative Sampling is presented, which is a simplified version of the Noise Contrastive Estimation (NCE) that uses only samples of the noise distribution (whilst NCE uses both the samples and the numerical probabilities of the noise distribution). Another significant extension to the Skip-gram model in this research paper is the subsampling of frequent words, whereby the model learns to counter the balance of rare (e.g. “France”) and frequent (e.g. “the”, “a”) words. Additive compositionality is also explained to be used in the phrase skip-gram model.
@@ -147,11 +197,21 @@
 <div class="w3-container w3-card-2 w3-white w3-margin-bottom animated fadeIn">
   <div class="w3-container" style="margin-top:10px">
     <h3 style="text-align:center">September 8, 2017</h3>
-    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 1 (NLIDBS)</h4>
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 2 (NLIDBS)</h4>
     <p><span class="display-field">Singh, Garima, and Arun Solanki. "An algorithm to transform natural language into SQL queries for relational databases." Selforganizology 3.3 (2016): 110-126.</span></p>
     <p>
       This paper is an engineering and empirical research paper. The authors, researchers from Gautam Buddha University, study how to process complex natural language queries and minimize ambiguity by using set of production rules and data dictionary which consists of semantics sets for relations and attributes. They explain the process of converting a natural language sentence into a SQL query through a series of steps that include lowercase conversion, tokenization, removal of escape words (words that have significance in SQL), part of speech tagging (categorizing words as nouns, pronouns, or verbs), classification of elements (putting the tokens into relations, attributes and clauses), removal of ambiguous attributes, and finally building of the query itself. The authors also discuss the results of testing their prototype and compare them with the results of an older NLIDBS. However, they do not provide any information about the older NLIDBS and the results generated for it. They also fail to clearly state what exactly their hypothesis is and what they are testing. This paper will be helpful in understanding the implementations of an NLIDBS, but there seems to be no clear evidence of the unique contribution to the field brought forward by this paper.
     </p>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 1 (Blockchain)</h4>
+    <p><span class="display-field">Lu, Feiyu. "An Overview of the Security Aspects of the Blockchain." (2016).</span></p>
+    <p>
+      The author of this paper discusses how some network security issues can be solved or improved with blockchain. He gives a brief description of blockchain and its advantage. He then compares blockchain to TCP/IP and discusses its benefits of transparency and immutability. He also discusses the security aspects of some applications based on blockchain in areas like money transaction, personal information, electronic voting.
+    </p>
+    <p>
+      I will use this paper to present a general overview of blockchain technology, and specifically study the security aspect of it.
+    </p>
+
     <h4 class="w3-text-teal" style="margin:30px auto;">AIML Test app</h4>
     <p>I implemented a <a href="https://github.com/Bovojon/AIML-test-app">Chatbot</a> using AIML-Python by following this amazing online <a href="http://www.devdungeon.com/content/ai-chat-bot-python-aiml" target="_blank">tutorial</a>. AIML (Artificial Intelligence Markup Language) is an XML-compliant language used for creating or customizing an Alicebot. I will be customizing and adding more functionality to the <a href="https://github.com/Bovojon/AIML-test-app">Chatbot</a> overtime.</p>
     <hr>
@@ -173,8 +233,8 @@
     <h4 class="w3-opacity"><b>Word2vec</b></h4>
     <p>I am interested in researching how machine learning can be used to improve search results for a search engine. There are a number of research papers that are produced on this field by Google and they are all available online. While exploring this area of research, I discovered Google’s RankBrain, which is a Machine Learning system to embed vast amounts of natural language into mathematical vectors that the computer can understand. This led me to learning about word vectors and the tool that Google produced, called word2vec. My research will involve studying and comparing the continuous bag-of-words and skip-gram models. The word2vec tool will provide an efficient implementation of the continuous bag-of-words and skip-gram architectures for computing vector representations of words.</p>
     <hr>
-    <h4 class="w3-opacity"><b>BlockChain Technology</b></h4>
-    <p>I am curious to study how the BlockChain technology can be applied to the sharing economy by using the idea of the ledger to provide security and to assign a digital identifier to assets. The question I am hoping to answer is: How effective is a freelance marketplace that is built on top of blockchain-based peer-to-peer network?</p>
+    <h4 class="w3-opacity"><b>Applications of BlockChain Technology</b></h4>
+    <p>I am curious to study how the BlockChain technology can be applied to various aspects of life, particulary the sharing economy by using the idea of the ledger to provide security and to assign a digital identifier to assets. The question I am hoping to answer is: How effective is a freelance marketplace that is built on top of blockchain-based peer-to-peer network?</p>
     <hr>
   </div>
 </div>
