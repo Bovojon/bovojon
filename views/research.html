@@ -21,6 +21,46 @@
 
 <div class="w3-container w3-card-2 w3-white w3-margin-bottom animated fadeIn">
   <div class="w3-container" style="margin-top:10px">
+    <h3 style="text-align:center">October 14, 2017</h3>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 27 (Word2vec)</h4>
+    <p><span class="display-field">Kiros, Ryan, et al. "Skip-thought vectors." Advances in neural information processing systems. 2015.</span></p>
+    <p>In this paper, researchers from the University of Toronto, Canadian Institute for Advanced Research and MIT present an approach for unsupervised learning of a generic, distributed sentence encoder by using the continuity of text from books to train an encoder-decoder model that tries to reconstruct the surrounding sentences of an encoded passage. Sentences that share semantic and syntactic properties are thus mapped to similar vector representations. They also introduce a vocabulary expansion method to encode words that were not seen as part of training which expanded the vocabulary to a million words. After training the model, the authors extract and evaluate the vectors with linear models on 8 tasks: semantic relatedness, paraphrase detection, image-sentence ranking, question-type classification and 4 benchmark sentiment and subjectivity datasets.</p>
+    <p>This paper will be used to (i) introduce and discuss the effectiveness of skip-thought vectors (ii) describe how the skip-gram model can be abstracted to the sentence level.</p>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 26 (Word2vec)</h4>
+    <p><span class="display-field"></span>Guthrie, David, et al. "A closer look at skip-gram modelling." Proceedings of the 5th international Conference on Language Resources and Evaluation (LREC-2006). sn, 2006.</p>
+    <p>In this paper, researchers from the NLP Research Group of the University of Sheffield, examine the use of skip-grams (a technique whereby n-grams are still stored to model language, but they allow for tokens to be skipped) to overcome the data sparsity problem. They analyze this by computing all possible skip-grams in a training corpus and measure how many adjacent (standard) n-grams these cover in test documents. They further examine skip-gram modelling using one to four skips with various amount of training data and test against similar documents as well as documents generated from a machine translation system. The authors also determine the amount of extra training data required to achieve skip-gram coverage using standard adjacent tri-grams.</p>
+    <p>I will use this paper to describe the skip-gram model in detail and discuss the effectiveness of using skip-grams to model context and cover tri-grams. </p>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 25 (Word2vec)</h4>
+    <p><span class="display-field">Mikolov, Tomas, et al. "Efficient estimation of word representations in vector space." arXiv preprint arXiv:1301.3781 (2013).</span></p>
+    <p>The authors of this paper introduce techniques that can be used for learning high-quality word vectors from huge data sets with billions of words, and with millions of words in the vocabulary. They propose two novel model architectures for computing continuous vector representations of words from very large data sets. The quality of the representations is measured in a word similarity task, and the results are compared to the previously best performing techniques based on different types of neural networks. There were large improvements in accuracy at much lower computational cost – the authors claim that it took less than a day to learn high quality word vectors from a 1.6 billion words data set. Furthermore, the authors demonstrate that these vectors provide state-of-the-art performance on their test set for measuring syntactic and semantic word similarities. I will use this paper to discuss how training time and accuracy depends on the dimensionality of the word vectors and on the amount of the training data.
+    </p>
+    <hr>
+  </div>
+</div>
+
+<div class="w3-container w3-card-2 w3-white w3-margin-bottom animated fadeIn">
+  <div class="w3-container" style="margin-top:10px">
+    <h3 style="text-align:center">October 13, 2017</h3>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 24 (Word2vec)</h4>
+    <p><span class="display-field">Maas, Andrew L., and Andrew Y. Ng. "A probabilistic model for semantic word vectors." NIPS Workshop on Deep Learning and Unsupervised Feature Learning. 2010.</span></p>
+    <p>Researchers from Stanford University introduce a model which learns semantically oriented word vectors using unsupervised learning – a probabilistic model of documents. Word vectors are discovered from data as part of a probabilistic model of word occurrence in documents similar to a probabilistic topic model. Learning vectors from document-level word co-occurrence allows the model to learn word representations based on the topical information conveyed by words. The authors build a VSM with probabilistic foundation that allows a principled solution to word vector learning in place of the hand-designed processing pipelines typically used. Their experiments show that the model learns vectors more suitable for document-level tasks when compared with other VSMs. Furthermore, the authors provide an evaluation of the model’s word vectors in two tasks of sentiment analysis. </p>
+    <p>This paper will be used to explain how a vector space model can learn semantically sensitive word representations via a probabilistic model of word occurrence in documents.</p>
+
+    <h4 class="w3-text-teal" style="margin-bottom:30px;">Annotation 23 (Word2vec)</h4>
+    <p><span class="display-field">Ma, Long, and Yanqing Zhang. "Using Word2Vec to process big text data." Big Data (Big Data), 2015 IEEE International Conference on. IEEE, 2015.</span></p>
+    <p>Researchers from Georgia State University introduce the problems of processing a huge data set and propose a solution that involves Word2Vec – consisting of the continuous bag-of-words and skip-gram learning models – to cluster similar words together and use the generated clusters to fit into a new data dimension so that the data dimension is decreased.  They first input a large-scale text corpus into Word2Vec in order to produce word vectors. An unsupervised machine learning algorithm is then used to cluster those word vectors. They then use a K-means clustering algorithm to group similar words in order to decrease the feature dimension and apply a multi-classification algorithm to evaluate the classification performance. </p>
+    <p>I will use this paper to explain how Google’s Word2Vec tool can be applied to big data processing.</p>
+
+    <hr>
+  </div>
+</div>
+
+<div class="w3-container w3-card-2 w3-white w3-margin-bottom animated fadeIn">
+  <div class="w3-container" style="margin-top:10px">
     <h3 style="text-align:center">October 7, 2017</h3>
 
     <h4 class="w3-text-teal">Annotation 22 (NLU)</h4>
