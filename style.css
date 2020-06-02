@@ -73,13 +73,6 @@ h5 {
   background-color: #009688!important;
 }
 
-.nav-tabs>li>a:visited {
-  color: #009688;
-  border-radius: 2px !important;
-  border-top-right-radius: 25px !important;
-  background-color: #fff!important;
-}
-
 .card {
   padding-bottom: 20px;
 }
