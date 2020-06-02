@@ -58,18 +58,27 @@ h5 {
   margin: 0px;
 }
 
+.nav>li>a {
+  font-size: 18px !important;
+  color: #fff;
+  border-radius: 2px !important;
+  border-top-right-radius: 25px !important;
+  background-color: #009688 !important;
+}
+
 .nav-tabs>li>a:active, .nav-tabs>li>a:hover {
   color: #fff;
   border-radius: 2px !important;
+  border-top-right-radius: 25px !important;
   background-color: #009688!important;
 }
 
 .nav-tabs>li>a:visited {
   color: #009688;
   border-radius: 2px !important;
+  border-top-right-radius: 25px !important;
   background-color: #fff!important;
 }
-
 
 .card {
   padding-bottom: 20px;
