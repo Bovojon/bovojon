@@ -12,16 +12,16 @@
     $urlRouterProvider.otherwise('/');
 
     $stateProvider
-      .state('about', {
-        url: '/',
-        templateUrl: 'views/about.html'
+      .state('interests', {
+        url: '/interests',
+        templateUrl: 'views/interests.html'
       })
       .state('skills', {
         url: '/skills',
         templateUrl: 'views/skills.html'
       })
       .state('experience', {
-        url: '/experience',
+        url: '/',
         templateUrl: 'views/experience.html'
       })
       .state('education', {
